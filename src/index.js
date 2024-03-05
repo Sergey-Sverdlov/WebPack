@@ -1,5 +1,7 @@
-import generateJoke from "./generateJoke.js";
+import generateName from "./generateJoke.js";
 import './styles/main.scss'
 
-console.log(generateJoke())
-console.log(1)
+const jokeBtn = document.getElementById('jokeBtn')
+
+jokeBtn.addEventListener('click', generateName)
+generateName()
