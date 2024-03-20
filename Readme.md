@@ -1,1 +1,2 @@
-Webpack example
+# Webpack 
+# Программа для генерации имен
